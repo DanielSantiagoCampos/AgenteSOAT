@@ -1,0 +1,13 @@
+Ejemplos de instrucciones:
+
+Para una placa específica (usa una placa del CSV, por ejemplo DJK890):
+
+Con la placa DJK890 calcula el nuevo valor estimado del SOAT y explícame los factores usados según el manual de tarifas.
+
+Para análisis global:
+
+Analiza el archivo de vehículos SOAT y dame estadísticas por tipo de vehículo y porcentaje de vehículos con siniestros.
+
+conda activate aplicacionia
+
+Calcula el valor del SOAT para la placa DJK890 y explícalo según el manual.
