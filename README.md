@@ -1,4 +1,5 @@
-# 🧠 Agente Cognitivo SOAT – Proyecto Final Inteligencia Artificial  
+# 🧠 Agente Cognitivo SOAT – Proyecto Final Inteligencia Artificial
+
 **Universidad Cooperativa de Colombia – 2025-2**  
 **Curso: Aplicación a la Inteligencia Artificial**  
 **Estudiante: Daniel Santiago Campos Piñeros**
@@ -26,15 +27,15 @@ El agente sigue el ciclo:
 
 ### Módulos
 
-| Módulo | Archivo | Función |
-|-------|---------|---------|
-| Planner | `src/planner.py` | Interpreta la instrucción y genera un plan JSON usando Ollama. |
-| Retriever | `src/retriever.py` | Indexa manual PDF y recupera evidencia (RAG). |
-| Executor | `src/executor.py` | Carga dataset, ejecuta cálculos y estadísticas. |
-| Reasoner | `src/reasoner.py` | Produce explicación textual basada en evidencia. |
-| Reporter | `src/reporter.py` | Crea reporte en Markdown. |
-| Evaluator | `src/evaluator.py` | Evalúa calidad estructural del reporte. |
-| Orquestador | `main.py` | Flujo general del agente. |
+| Módulo      | Archivo            | Función                                                        |
+| ----------- | ------------------ | -------------------------------------------------------------- |
+| Planner     | `src/planner.py`   | Interpreta la instrucción y genera un plan JSON usando Ollama. |
+| Retriever   | `src/retriever.py` | Indexa manual PDF y recupera evidencia (RAG).                  |
+| Executor    | `src/executor.py`  | Carga dataset, ejecuta cálculos y estadísticas.                |
+| Reasoner    | `src/reasoner.py`  | Produce explicación textual basada en evidencia.               |
+| Reporter    | `src/reporter.py`  | Crea reporte en Markdown.                                      |
+| Evaluator   | `src/evaluator.py` | Evalúa calidad estructural del reporte.                        |
+| Orquestador | `main.py`          | Flujo general del agente.                                      |
 
 ---
 
@@ -66,7 +67,14 @@ SOAT/
 ```bash
 conda activate aplicacionia
 pip install pandas scikit-learn matplotlib pdfplumber ollama
+
+pip install reportlab
+pip install streamlit
+
+streamlit run app.py
 ```
+
+Check the http://localhost:8501/
 
 Verificar que Ollama está instalado:
 
@@ -117,14 +125,14 @@ Dime el valor estimado del SOAT para la placa CWZ161 y analiza el portafolio com
 
 Dataset ficticio con 50 registros:
 
-- placa  
-- tipo_vehiculo  
-- cilindraje  
-- edad_conductor  
-- siniestros  
-- zona_riesgo  
-- valor_soat_actual  
-- fecha_vencimiento  
+- placa
+- tipo_vehiculo
+- cilindraje
+- edad_conductor
+- siniestros
+- zona_riesgo
+- valor_soat_actual
+- fecha_vencimiento
 
 ---
 
@@ -142,12 +150,12 @@ se utiliza para recuperar evidencia textual relevante usando TF-IDF.
 
 ## 🧪 9. Pruebas recomendadas (placas del dataset)
 
-- DJK890  
-- CWZ161  
-- ZSP221  
-- RHL980  
-- GKW218  
-- HPL765  
+- DJK890
+- CWZ161
+- ZSP221
+- RHL980
+- GKW218
+- HPL765
 
 Ejemplo:
 
