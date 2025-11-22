@@ -4,6 +4,7 @@ import ollama
 
 from .config import OLLAMA_MODEL
 
+# aca es donde le pasamos 
 def build_evidence_text(rag_evidence: List[Dict]) -> str:
     text = ""
     for i, ev in enumerate(rag_evidence, 1):

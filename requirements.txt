@@ -26,4 +26,4 @@ pathlib
 
 # Para correrlo:
 
-streamlit run app.py
+streamlit run app.pyçç
