@@ -2,7 +2,11 @@
 
 **Universidad Cooperativa de Colombia – 2025-2**  
 **Curso: Aplicación a la Inteligencia Artificial**  
-**Estudiante: Daniel Santiago Campos Piñeros**
+**Estudiantes:**
+
+- Daniel Santiago Campos Piñeros
+- Juan Camilo Devia
+- Diego Insuno
 
 ---
 

@@ -67,6 +67,7 @@ def run_agent_once(instruction: str):
     # 2) RAG: documentación SOAT
     kb = KnowledgeBase()
     kb.index_documents()
+    # Aca es donde generamos el json para el ollama con la info del pdf
     rag_evidence = kb.retrieve(instruction, top_k=5)
 
     # 3) Executor: dataset + acciones

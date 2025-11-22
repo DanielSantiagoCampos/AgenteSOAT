@@ -1,0 +1,29 @@
+# --- Agente Cognitivo SOAT ---
+
+# Procesamiento de datos
+pandas
+numpy
+
+# PDF: extracción y creación de documentos
+pdfplumber
+reportlab
+
+# RAG con TF-IDF
+scikit-learn
+
+# Visualización
+matplotlib
+
+# LLM local con Ollama (cliente Python)
+ollama
+
+# Interfaz opcional
+streamlit
+
+# Utilidades
+tqdm
+pathlib
+
+# Para correrlo:
+
+streamlit run app.py
